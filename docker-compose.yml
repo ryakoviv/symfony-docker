@@ -19,7 +19,6 @@ services:
             ADMINER_DEFAULT_DB_DRIVER: mysql
             ADMINER_DEFAULT_DB_HOST: db
             ADMINER_DEFAULT_DB_NAME: symfony
-            ADMINER_DESIGN: nette
             ADMINER_PLUGINS: tables-filter tinymce
         ports:
             - 8080:8080
